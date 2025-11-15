@@ -20,6 +20,17 @@ import { NextFetchEvent, NextRequest, NextResponse } from "next/server";
 import { PartnersMiddleware } from "./lib/middleware/partners";
 import { supportedWellKnownFiles } from "./lib/well-known";
 
+import { PARTNERS_HOSTNAMES } from "@dub/utils/src/constants";
+import { NextFetchEvent, NextRequest, NextResponse } from "next/server";
+import { PartnersMiddleware } from "./lib/middleware/partners";
+import { supportedWellKnownFiles } from "./lib/well-known";
+
+
+import { PARTNERS_HOSTNAMES } from "@dub/utils/src/constants";
+import { NextFetchEvent, NextRequest, NextResponse } from "next/server";
+import { PartnersMiddleware } from "./lib/middleware/partners";
+import { supportedWellKnownFiles } from "./lib/well-known";
+
 export const config = {
   matcher: [
     /*
