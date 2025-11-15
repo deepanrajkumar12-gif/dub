@@ -16,10 +16,15 @@ import {
   isValidUrl,
 } from "@dub/utils";
 import { PARTNERS_HOSTNAMES } from "@dub/utils/src/constants";
-import { NextFetchEvent, NextRequest, NextResponse } from "next/server";
+
 import { PartnersMiddleware } from "./lib/middleware/partners";
 import { supportedWellKnownFiles } from "./lib/well-known";
+import { supportedWellKnownFiles } from "./lib/well-known";
+import { NextFetchEvent, NextRequest, NextResponse } from "next/server";
 
+import { PARTNERS_HOSTNAMES } from "@dub/utils/src/constants";
+
+import { PARTNERS_HOSTNAMES } from "@dub/utils/src/constants";
 import { PARTNERS_HOSTNAMES } from "@dub/utils/src/constants";
 import { NextFetchEvent, NextRequest, NextResponse } from "next/server";
 import { PartnersMiddleware } from "./lib/middleware/partners";
