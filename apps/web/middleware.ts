@@ -51,6 +51,7 @@ export default async function middleware(req: NextRequest, ev: NextFetchEvent) {
   logger.info(...transformMiddlewareRequest(req));
   ev.waitUntil(logger.flush());
 
+  // this is a new change
   // for App
   if (APP_HOSTNAMES.has(domain)) {
     return AppMiddleware(req);
